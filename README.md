@@ -57,7 +57,7 @@ detect change.
 | `SES_Completion_Analysis_2020_24.ipynb` | Jupyter notebook with Kruskal-Wallis tests and Dunn's pairwise post-hoc analysis |
 
 **Note:** The underlying dataset contains student-level completion records
-and is not included in this repository.
+and is not included in this repository. Furthermore, the data has been synthetically altered so original aggregate values are masked.
 
 ---
 
