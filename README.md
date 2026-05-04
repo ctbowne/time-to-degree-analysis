@@ -54,15 +54,72 @@ detect change.
 
 | File | Description |
 |------|-------------|
-| `time_to_degree_analysis.R` | R code for Kruskal-Wallis tests and Dunn's pairwise post-hoc analysis |
+| `SES_Completion_Analysis_2020_24.ipynb` | Jupyter notebook with Kruskal-Wallis tests and Dunn's pairwise post-hoc analysis |
 
 **Note:** The underlying dataset contains student-level completion records
 and is not included in this repository.
 
 ---
 
-## Tools & Packages
+## Environment
 
-- **R** — `dplyr`, `stats`, `dunn.test`
-- Kruskal-Wallis: `kruskal.test()`
-- Dunn's post-hoc: `dunn.test()` with Bonferroni correction
+**Python:** 3.14.4
+
+**Jupyter Components:**
+
+| Component | Version |
+|-----------|---------|
+| jupyter-core | 5.9.1 |
+| jupyter-client | 8.8.0 |
+| ipykernel | 7.2.0 |
+
+**Packages:**
+
+```
+asttokens               3.0.1
+colorama                0.4.6
+comm                    0.2.3
+contourpy               1.3.3
+cycler                  0.12.1
+debugpy                 1.8.20
+decorator               5.2.1
+et-xmlfile              2.0.0
+executing               2.2.1
+fonttools               4.62.1
+ipykernel               7.2.0
+ipython                 9.13.0
+ipython-pygments-lexers 1.1.1
+jedi                    0.20.0
+jupyter-client          8.8.0
+jupyter-core            5.9.1
+kiwisolver              1.5.0
+matplotlib              3.10.9
+matplotlib-inline       0.2.1
+nest-asyncio            1.6.0
+numpy                   2.4.4
+openpyxl                3.1.5
+packaging               26.2
+pandas                  3.0.2
+parso                   0.8.7
+patsy                   1.0.2
+pillow                  12.2.0
+pip                     26.1
+platformdirs            4.9.6
+prompt-toolkit          3.0.52
+psutil                  7.2.2
+pure-eval               0.2.3
+pygments                2.20.0
+pyparsing               3.3.2
+python-dateutil         2.9.0.post0
+pyzmq                   27.1.0
+scikit-posthocs         0.12.0
+scipy                   1.17.1
+seaborn                 0.13.2
+six                     1.17.0
+stack-data              0.6.3
+statsmodels             0.14.6
+tornado                 6.5.5
+traitlets               5.14.3
+tzdata                  2026.2
+wcwidth                 0.7.0
+```
